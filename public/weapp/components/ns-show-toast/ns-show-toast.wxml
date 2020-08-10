@@ -1,0 +1,1 @@
+<block wx:if="{{showToastValue.title}}"><view class="show-toast data-v-0b2a6f65"><view class="show-toast-box data-v-0b2a6f65">{{showToastValue.title}}</view></view></block>

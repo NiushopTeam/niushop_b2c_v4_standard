@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "ns-goods-item-row": "/components/ns-goods-item/ns-goods-item-row"
+  }
+}

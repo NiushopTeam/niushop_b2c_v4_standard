@@ -1,0 +1,1 @@
+<block wx:if="{{showFenxiao!=0&&levelInfo.words_account}}"><view class="wrap-box"><view class="wrap"><view class="title ns-text-color">{{levelInfo.words_account+"详情"}}</view><view class="commission-ratio"><view class="item"><view>{{"一级"+levelInfo.words_account}}</view><view class="ns-text-color">{{"￥"+levelInfo.commission_money}}</view></view></view></view></view></block>

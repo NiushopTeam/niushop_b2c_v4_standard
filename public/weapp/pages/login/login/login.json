@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "ns-show-toast": "/components/ns-show-toast/ns-show-toast"
+  }
+}

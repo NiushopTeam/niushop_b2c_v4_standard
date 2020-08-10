@@ -1,0 +1,1 @@
+<view class="progress"><view data-ref="progress" class="progress-bar ns-bg-color vue-ref" style="{{'width:'+(progress+'%')+';'}}"></view></view>

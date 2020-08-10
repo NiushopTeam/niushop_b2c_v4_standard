@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "myp-one": "/components/myp-one/myp-one",
+    "ns-show-toast": "/components/ns-show-toast/ns-show-toast"
+  }
+}

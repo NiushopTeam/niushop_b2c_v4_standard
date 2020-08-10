@@ -1,0 +1,1 @@
+<view class="diy-title"><text data-event-opts="{{[['tap',[['goback']]]]}}" class="back iconfont iconback_light" bindtap="__e"></text><text class="title">{{value.title}}</text><block wx:if="{{value.isOpenOperation}}"><text data-event-opts="{{[['tap',[['redirectTo',['$0'],['value.rightLink']]]]]}}" class="operation" bindtap="__e">{{value.operation_name}}</text></block></view>

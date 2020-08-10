@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "个人资料",
+  "usingComponents": {
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "ns-show-toast": "/components/ns-show-toast/ns-show-toast",
+    "loading-cover": "/components/loading-cover/loading-cover"
+  }
+}

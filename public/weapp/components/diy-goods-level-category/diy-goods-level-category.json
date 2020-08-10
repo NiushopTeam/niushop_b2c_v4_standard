@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "ns-show-toast": "/components/ns-show-toast/ns-show-toast",
+    "diy-goods-level-one": "/components/diy-goods-level-category/diy-goods-level-one",
+    "diy-goods-level-two": "/components/diy-goods-level-category/diy-goods-level-two",
+    "diy-goods-level-three": "/components/diy-goods-level-category/diy-goods-level-three"
+  }
+}

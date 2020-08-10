@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "ns-switch": "/components/ns-switch/ns-switch",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "myp-one": "/components/myp-one/myp-one",
+    "loading-cover": "/components/loading-cover/loading-cover",
+    "ns-show-toast": "/components/ns-show-toast/ns-show-toast"
+  }
+}

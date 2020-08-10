@@ -1,0 +1,248 @@
+{
+	"templateInfo": {
+		"name": "外卖",
+		"desc": "牛之云网络科技专注模板设计与开发，智能装修，操作简单，助您提升店铺装修视觉体验，提高店铺转化！售后有保障，牛酷科技愿竭诚为您服务！",
+		"mark": "toke_template"
+	},
+	"templateValue": {
+		"DIYVIEW_INDEX": {
+			"image": "public/diy_view/style3/img/cover.png",
+			"data" :
+			{
+				"global": {
+					"title": "外卖模版",
+					"openBottomNav": false,
+					"bgColor": "#f7f7f7",
+					"bgUrl": "public/diy_view/style3/img/bg_img.png"
+				},
+				"value": [
+					{
+						"addon_name": "store",
+						"type": "STORE_CHANGE",
+						"name": "门店展示",
+						"controller": "StoreShow",
+						"style": "3"
+					},
+					{
+						"addon_name": "",
+						"type": "IMAGE_ADS",
+						"name": "图片广告",
+						"controller": "ImageAds",
+						"selectedTemplate": "carousel-posters",
+						"imageClearance": 0,
+						"padding": 0,
+						"height": "0",
+						"list": [
+							{
+								"imageUrl": "public/diy_view/style3/img/posters_3.png",
+								"title": "",
+								"link": {
+									"name": ""
+								}
+							},
+							{
+								"imageUrl": "public/diy_view/style3/img/posters_1.png",
+								"title": "",
+								"link": {
+									"name": ""
+								}
+							},
+							{
+								"imageUrl": "public/diy_view/style3/img/posters_2.png",
+								"title": "",
+								"link": {
+									"name": ""
+								}
+							}
+						]
+					},
+					{
+						"list": [
+							{
+								"title": "外卖小程序",
+								"link": {
+									"name": ""
+								}
+							}
+						],
+						"addon_name": "",
+						"type": "NOTICE",
+						"name": "公告",
+						"controller": "Notice",
+						"backgroundColor": "#ffffff",
+						"paddingLeftRight": 10,
+						"paddingTopBottom": 0,
+						"textColor": "#333333",
+						"defaultTextColor": "#333333",
+						"sources": "default",
+						"style": 1,
+						"isEdit": 1,
+						"fontSize": 14,
+						"noticeIds": []
+					},
+					{
+						"backgroundColor": "",
+						"addon_name": "",
+						"type": "HORZ_BLANK",
+						"name": "辅助空白",
+						"controller": "HorzBlank",
+						"height": 10,
+						"marginLeftRight": 0
+					},
+					{
+						"backgroundColor": "",
+						"addon_name": "",
+						"type": "GRAPHIC_NAV",
+						"name": "图文导航",
+						"controller": "GraphicNav",
+						"selectedTemplate": "imageNavigation",
+						"list": [
+							{
+								"imageUrl": "public/diy_view/style3/img/adv_01.png",
+								"link": {
+									"name": ""
+								},
+								"title": ""
+							}
+						],
+						"textColor": "#666666",
+						"defaultTextColor": "#666666",
+						"scrollSetting": "fixed",
+						"imageScale": 100,
+						"padding": 0,
+						"paddingTopBottom": 0,
+						"paddingLeftRight": 10,
+						"borderTopLeftRadius": 0,
+						"borderTopRightRadius": 0,
+						"borderBottomLeftRadius": 0,
+						"borderBottomRightRadius": 0
+					},
+					{
+						"backgroundColor": "",
+						"addon_name": "",
+						"type": "HORZ_BLANK",
+						"name": "辅助空白",
+						"controller": "HorzBlank",
+						"height": 10,
+						"marginLeftRight": 0
+					},
+					{
+						"addon_name": "",
+						"type": "RUBIK_CUBE",
+						"name": "魔方",
+						"controller": "RubikCube",
+						"backgroundColor": "#ffffff",
+						"selectedTemplate": "row1-lt-of2-rt",
+						"list": [
+							{
+								"imageUrl": "public/diy_view/style3/img/adv_02.png",
+								"link": {
+									"name": ""
+								}
+							},
+							{
+								"imageUrl": "public/diy_view/style3/img/adv_04.png",
+								"link": {
+									"name": ""
+								}
+							},
+							{
+								"imageUrl": "public/diy_view/style3/img/adv_03.png",
+								"link": {
+									"name": ""
+								}
+							}
+						],
+						"selectedRubikCubeArray": [],
+						"diyHtml": "",
+						"customRubikCube": 4,
+						"heightArray": [
+							"74.25px",
+							"59px",
+							"48.83px",
+							"41.56px"
+						],
+						"imageGap": 0
+					},
+					{
+						"backgroundColor": "",
+						"list": {
+							"imageUrl": "",
+							"title": "拼团专区"
+						},
+						"addon_name": "pintuan",
+						"type": "PINTUAN_LIST",
+						"name": "拼团",
+						"controller": "Pintuan",
+						"padding": 10,
+						"sources": "diy",
+						"categoryId": 0,
+						"goodsCount": "6",
+						"goodsId": [],
+						"style": 1,
+						"listMore": {
+							"imageUrl": "",
+							"title": "好友都在拼"
+						},
+						"titleTextColor": "#000",
+						"defaultTitleTextColor": "#000",
+						"moreTextColor": "#858585",
+						"defaultMoreTextColor": "#858585"
+					},
+					{
+						"backgroundColor": "",
+						"addon_name": "seckill",
+						"type": "SECKILL_LIST",
+						"name": "秒杀",
+						"controller": "Seckill",
+						"list": {
+							"imageUrl": "",
+							"title": "秒杀专区"
+						},
+						"paddingLeftRight": 0,
+						"padding": 10,
+						"style": 1,
+						"isShowGoodsName": 1,
+						"isShowGoodsDesc": 0,
+						"isShowGoodsPrice": 1,
+						"isShowGoodsPrimary": 1,
+						"isShowGoodsStock": 0,
+						"listMore": {
+							"imageUrl": "",
+							"title": "更多秒杀"
+						},
+						"titleTextColor": "#000",
+						"defaultTitleTextColor": "#000",
+						"moreTextColor": "#858585",
+						"defaultMoreTextColor": "#858585"
+					},
+					{
+						"backgroundColor": "",
+						"list": {
+							"imageUrl": "",
+							"title": "砍价专区"
+						},
+						"addon_name": "bargain",
+						"type": "BARGAIN_LIST",
+						"name": "砍价",
+						"controller": "Bargain",
+						"sources": "default",
+						"categoryId": 0,
+						"goodsCount": "6",
+						"goodsId": [],
+						"style": 1,
+						"padding": 10,
+						"listMore": {
+							"imageUrl": "",
+							"title": "更多"
+						},
+						"titleTextColor": "#000",
+						"defaultTitleTextColor": "#000",
+						"moreTextColor": "#858585",
+						"defaultMoreTextColor": "#858585"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,566 @@
+{
+	"templateInfo": {
+		"name": "生鲜水果蔬菜食品特产",
+		"desc": "牛之云网络科技专注模板设计与开发，智能装修，操作简单，助您提升店铺装修视觉体验，提高店铺转化！售后有保障，牛酷科技愿竭诚为您服务！",
+		"mark": "fresh_template"
+	},
+	"templateValue": {
+		"DIYVIEW_INDEX": {
+			"image": "public/diy_view/style1/img/cover.png",
+			"data" :
+			{
+				"global": {
+					"title": "水果模版",
+					"openBottomNav": false,
+					"bgColor": "#f7f7f7",
+					"bgUrl": "public/diy_view/style1/img/bg_img.png"
+				},
+				"value": [
+					{
+						"addon_name": "store",
+						"type": "STORE_CHANGE",
+						"name": "门店展示",
+						"controller": "StoreShow",
+						"style": "2"
+					},
+					{
+						"addon_name": "",
+						"type": "SEARCH",
+						"name": "商品搜索",
+						"controller": "Search",
+						"textColor": "#999999",
+						"backgroundColor": "#00ae4b",
+						"bgColor": "#fcfcfc",
+						"defaultTextColor": "#999999",
+						"borderType": 2,
+						"textAlign": "left"
+					},
+					{
+						"list": [
+							{
+								"title": "",
+								"link": {
+									"name": ""
+								},
+								"imageUrl": "public/diy_view/style1/img/adv_01.png"
+							}
+						],
+						"addon_name": "",
+						"type": "GRAPHIC_NAV",
+						"name": "图文导航",
+						"controller": "GraphicNav",
+						"selectedTemplate": "imageNavigation",
+						"padding": 0,
+						"backgroundColor": "#ffffff",
+						"paddingLeftRight": 10,
+						"paddingTopBottom": 10,
+						"textColor": "#666666",
+						"defaultTextColor": "#666666",
+						"scrollSetting": "fixed",
+						"imageScale": 100,
+						"borderTopLeftRadius": 0,
+						"borderTopRightRadius": 0,
+						"borderBottomLeftRadius": 0,
+						"borderBottomRightRadius": 0
+					},
+					{
+						"backgroundColor": "#ffffff",
+						"addon_name": "",
+						"type": "GRAPHIC_NAV",
+						"name": "图文导航",
+						"controller": "GraphicNav",
+						"textColor": "#363636",
+						"defaultTextColor": "#666666",
+						"selectedTemplate": "imageNavigation",
+						"scrollSetting": "horizontal-scroll",
+						"imageScale": "40",
+						"padding": 0,
+						"paddingTopBottom": 10,
+						"paddingLeftRight": 0,
+						"list": [
+							{
+								"imageUrl": "public/diy_view/style1/img/all.png",
+								"title": "全部商品",
+								"link": {
+									"id": 3492,
+									"addon_name": "",
+									"name": "SHOP_CATEGORY",
+									"title": "商品分类",
+									"web_url": "",
+									"wap_url": "/pages/goods/category/category",
+									"icon": "",
+									"selected": false,
+									"parent": "BASICS_LINK",
+									"sort": 0,
+									"level": 4,
+									"support_diy_view": "",
+									"parents": "MALL_LINK"
+								}
+							},
+							{
+								"imageUrl": "public/diy_view/style1/img/pintuan.png",
+								"title": "超值拼团",
+								"link": {
+									"id": 3536,
+									"addon_name": "pintuan",
+									"name": "PINTUAN_PREFECTURE",
+									"title": "拼团专区",
+									"web_url": "",
+									"wap_url": "/promotionpages/pintuan/list/list",
+									"icon": "",
+									"selected": false,
+									"parent": "PINTUAN",
+									"sort": 0,
+									"level": 4,
+									"support_diy_view": "",
+									"parents": "MARKETING_LINK"
+								}
+							},
+							{
+								"imageUrl": "public/diy_view/style1/img/grup_purchase.png",
+								"title": "精彩团购",
+								"link": {
+									"id": 3539,
+									"addon_name": "groupbuy",
+									"name": "GROUPBUY_PREFECTURE",
+									"title": "团购专区",
+									"web_url": "",
+									"wap_url": "/promotionpages/groupbuy/list/list",
+									"icon": "",
+									"selected": false,
+									"parent": "GROUPBUY",
+									"sort": 0,
+									"level": 4,
+									"support_diy_view": "",
+									"parents": "MARKETING_LINK"
+								}
+							},
+							{
+								"imageUrl": "public/diy_view/style1/img/seckill.png",
+								"title": "限时秒杀",
+								"link": {
+									"id": 3534,
+									"addon_name": "seckill",
+									"name": "SECKILL_PREFECTURE",
+									"title": "秒杀专区",
+									"web_url": "",
+									"wap_url": "/promotionpages/seckill/list/list",
+									"icon": "",
+									"selected": false,
+									"parent": "SECKILL",
+									"sort": 0,
+									"level": 4,
+									"support_diy_view": "",
+									"parents": "MARKETING_LINK"
+								}
+							},
+							{
+								"imageUrl": "public/diy_view/style1/img/integral.png",
+								"title": "积分兑换",
+								"link": {
+									"id": 3543,
+									"addon_name": "pointexchange",
+									"name": "INTEGRAL_CONVERSION",
+									"title": "积分兑换",
+									"web_url": "",
+									"wap_url": "/promotionpages/point/order_list/order_list",
+									"icon": "",
+									"selected": false,
+									"parent": "INTEGRAL",
+									"sort": 0,
+									"level": 4,
+									"support_diy_view": "",
+									"parents": "MARKETING_LINK",
+									"LAY_INDEX": 1,
+									"pintuan_id": 141,
+									"site_id": 417,
+									"site_name": "",
+									"pintuan_name": "1111",
+									"goods_id": 255,
+									"is_virtual_goods": 0,
+									"pintuan_num": 2,
+									"pintuan_time": 1440,
+									"remark": "",
+									"create_time": 1594372942,
+									"modify_time": 0,
+									"is_recommend": 0,
+									"start_time": 1594372917,
+									"end_time": 1596964917,
+									"buy_num": 1,
+									"pintuan_price": "0.00",
+									"is_single_buy": 0,
+									"is_virtual_buy": 0,
+									"is_promotion": 0,
+									"status": 1,
+									"group_num": 0,
+									"order_num": 0,
+									"goods_name": "六神 沐浴露 沐浴液 劲凉酷爽沐浴乳 3重薄荷持续清凉 清爽易冲洗1000ml沐浴露男女",
+									"goods_image": "upload/417/common/images/20200525/20200525112414159037705483765.jpg,upload/417/common/images/20200525/20200525112414159037705483498.jpg",
+									"goods_stock": 1003,
+									"LAY_TABLE_INDEX": 0
+								}
+							},
+							{
+								"imageUrl": "public/diy_view/style1/img/help.png",
+								"title": "我的帮助",
+								"link": {
+									"name": ""
+								}
+							}
+						],
+						"borderTopLeftRadius": 0,
+						"borderTopRightRadius": 0,
+						"borderBottomLeftRadius": 0,
+						"borderBottomRightRadius": 0
+					},
+					{
+						"backgroundColor": "",
+						"addon_name": "",
+						"type": "HORZ_BLANK",
+						"name": "辅助空白",
+						"controller": "HorzBlank",
+						"height": 10,
+						"marginLeftRight": 0
+					},
+					{
+						"backgroundColor": "",
+						"addon_name": "",
+						"type": "GRAPHIC_NAV",
+						"name": "图文导航",
+						"controller": "GraphicNav",
+						"selectedTemplate": "imageNavigation",
+						"list": [
+							{
+								"imageUrl": "public/diy_view/style1/img/adv_05.png",
+								"link": {
+									"name": ""
+								},
+								"title": ""
+							}
+						],
+						"textColor": "#666666",
+						"defaultTextColor": "#666666",
+						"scrollSetting": "fixed",
+						"imageScale": 100,
+						"padding": 0,
+						"paddingTopBottom": 0,
+						"paddingLeftRight": 0,
+						"borderTopLeftRadius": 0,
+						"borderTopRightRadius": 0,
+						"borderBottomLeftRadius": 0,
+						"borderBottomRightRadius": 0
+					},
+					{
+						"addon_name": "",
+						"type": "GRAPHIC_NAV",
+						"name": "图文导航",
+						"controller": "GraphicNav",
+						"backgroundColor": "",
+						"textColor": "#666666",
+						"defaultTextColor": "#666666",
+						"selectedTemplate": "imageNavigation",
+						"scrollSetting": "fixed",
+						"imageScale": 100,
+						"padding": 5,
+						"paddingTopBottom": 0,
+						"paddingLeftRight": 5,
+						"list": [
+							{
+								"imageUrl": "public/diy_view/style1/img/adv_02.png",
+								"title": "",
+								"link": {
+									"name": ""
+								}
+							},
+							{
+								"imageUrl": "public/diy_view/style1/img/adv_03.png",
+								"title": "",
+								"link": {
+									"name": ""
+								}
+							}
+						],
+						"borderTopLeftRadius": 0,
+						"borderTopRightRadius": 0,
+						"borderBottomLeftRadius": 0,
+						"borderBottomRightRadius": 0
+					},
+					{
+						"backgroundColor": "",
+						"list": [
+							{
+								"title": "",
+								"link": {
+									"name": ""
+								},
+								"imageUrl": "public/diy_view/style1/img/function_01.png"
+							},
+							{
+								"link": {
+									"name": ""
+								},
+								"title": "",
+								"imageUrl": "public/diy_view/style1/img/function_02.png"
+							},
+							{
+								"imageUrl": "public/diy_view/style1/img/function_03.png",
+								"title": "",
+								"link": {
+									"name": ""
+								}
+							},
+							{
+								"imageUrl": "public/diy_view/style1/img/function_04.png",
+								"title": "",
+								"link": {
+									"name": ""
+								}
+							}
+						],
+						"addon_name": "",
+						"type": "GRAPHIC_NAV",
+						"name": "图文导航",
+						"controller": "GraphicNav",
+						"textColor": "#666666",
+						"defaultTextColor": "#666666",
+						"paddingTopBottom": 10,
+						"paddingLeftRight": 10,
+						"selectedTemplate": "imageNavigation",
+						"scrollSetting": "fixed",
+						"imageScale": 100,
+						"padding": 4,
+						"borderTopLeftRadius": 0,
+						"borderTopRightRadius": 0,
+						"borderBottomLeftRadius": 0,
+						"borderBottomRightRadius": 0
+					},
+					{
+						"backgroundColor": "",
+						"addon_name": "",
+						"type": "GRAPHIC_NAV",
+						"name": "图文导航",
+						"controller": "GraphicNav",
+						"textColor": "#666666",
+						"defaultTextColor": "#666666",
+						"list": [
+							{
+								"link": {
+									"name": "",
+									"LAY_INDEX": 2,
+									"game_id": 60,
+									"site_id": 417,
+									"game_name": "刮刮乐-测试",
+									"game_type": "cards",
+									"game_type_name": "刮刮乐",
+									"level_id": "0",
+									"level_name": "",
+									"points": 1,
+									"start_time": 1594434474,
+									"end_time": 1597026474,
+									"status": 1,
+									"remark": "",
+									"winning_rate": "60.00",
+									"no_winning_img": "",
+									"no_winning_desc": "很遗憾，未中奖",
+									"is_show_winner": 0,
+									"join_type": 1,
+									"join_frequency": 10,
+									"join_num": 3,
+									"winning_num": 2,
+									"create_time": 1594434750,
+									"update_time": 0,
+									"LAY_TABLE_INDEX": 1,
+									"wap_url": "/otherpages/game/cards/cards?id=60",
+									"title": "刮刮乐-测试",
+									"selected": true,
+									"parents": "CARDS_GAME"
+								},
+								"title": "",
+								"imageUrl": "public/diy_view/style1/img/cards.png"
+							},
+							{
+								"link": {
+									"name": "",
+									"LAY_INDEX": 2,
+									"game_id": 59,
+									"site_id": 417,
+									"game_name": "砸金蛋-测试",
+									"game_type": "egg",
+									"game_type_name": "砸金蛋",
+									"level_id": "0",
+									"level_name": "",
+									"points": 1,
+									"start_time": 1594434350,
+									"end_time": 1597026350,
+									"status": 1,
+									"remark": "",
+									"winning_rate": "100.00",
+									"no_winning_img": "",
+									"no_winning_desc": "很遗憾，未中奖",
+									"is_show_winner": 1,
+									"join_type": 1,
+									"join_frequency": 20,
+									"join_num": 5,
+									"winning_num": 5,
+									"create_time": 1594434453,
+									"update_time": 0,
+									"LAY_TABLE_INDEX": 1,
+									"wap_url": "/otherpages/game/smash_eggs/smash_eggs?id=59",
+									"title": "砸金蛋-测试",
+									"selected": true,
+									"parents": "EGG_GAME"
+								},
+								"title": "",
+								"imageUrl": "public/diy_view/style1/img/egg.png"
+							},
+							{
+								"imageUrl": "public/diy_view/style1/img/turntable.png",
+								"title": "",
+								"link": {
+									"LAY_INDEX": 2,
+									"game_id": 60,
+									"site_id": 417,
+									"game_name": "刮刮乐-测试",
+									"game_type": "cards",
+									"game_type_name": "刮刮乐",
+									"level_id": "0",
+									"level_name": "",
+									"points": 1,
+									"start_time": 1594434474,
+									"end_time": 1597026474,
+									"status": 1,
+									"remark": "",
+									"winning_rate": "60.00",
+									"no_winning_img": "",
+									"no_winning_desc": "很遗憾，未中奖",
+									"is_show_winner": 0,
+									"join_type": 1,
+									"join_frequency": 10,
+									"join_num": 3,
+									"winning_num": 2,
+									"create_time": 1594434750,
+									"update_time": 0,
+									"LAY_TABLE_INDEX": 1,
+									"wap_url": "/otherpages/game/cards/cards?id=60",
+									"title": "刮刮乐-测试",
+									"selected": true,
+									"name": "",
+									"parents": "CARDS_GAME"
+								}
+							}
+						],
+						"paddingTopBottom": 0,
+						"paddingLeftRight": 10,
+						"selectedTemplate": "imageNavigation",
+						"scrollSetting": "fixed",
+						"imageScale": 100,
+						"padding": 5,
+						"borderTopLeftRadius": 0,
+						"borderTopRightRadius": 0,
+						"borderBottomLeftRadius": 0,
+						"borderBottomRightRadius": 0
+					},
+					{
+						"backgroundColor": "",
+						"list": [
+							{
+								"link": {
+									"name": ""
+								},
+								"text": "今日热销",
+								"secondText": "原味进口 新鲜品尝"
+							}
+						],
+						"addon_name": "",
+						"type": "TEXT_NAV",
+						"name": "文本导航",
+						"controller": "TextNav",
+						"textColor": "#333333",
+						"defaultTextColor": "#333333",
+						"fontSize": 14,
+						"textAlign": "left",
+						"arrangement": "vertical"
+					},
+					{
+						"backgroundColor": "",
+						"addon_name": "",
+						"type": "GRAPHIC_NAV",
+						"name": "图文导航",
+						"controller": "GraphicNav",
+						"paddingLeftRight": 10,
+						"padding": 0,
+						"list": [
+							{
+								"imageUrl": "public/diy_view/style1/img/adv_04.png",
+								"title": "",
+								"link": {
+									"name": ""
+								}
+							}
+						],
+						"textColor": "#666666",
+						"defaultTextColor": "#666666",
+						"selectedTemplate": "imageNavigation",
+						"scrollSetting": "fixed",
+						"imageScale": 100,
+						"paddingTopBottom": 0,
+						"borderTopLeftRadius": 0,
+						"borderTopRightRadius": 0,
+						"borderBottomLeftRadius": 0,
+						"borderBottomRightRadius": 0
+					},
+					{
+						"sources": "default",
+						"style": 1,
+						"backgroundColor": "",
+						"addon_name": "",
+						"type": "GOODS_LIST",
+						"name": "商品列表",
+						"controller": "GoodsList",
+						"categoryId": 0,
+						"goodsCount": "6",
+						"goodsId": [
+							"263",
+							"255",
+							"253",
+							"249"
+						],
+						"paddingLeftRight": 0,
+						"paddingUpDown": 0,
+						"isShowCart": 1,
+						"cartStyle": 1,
+						"isShowGoodName": 1,
+						"isShowMarketPrice": 1,
+						"isShowGoodSaleNum": 0,
+						"isShowGoodSubTitle": 1
+					},
+					{
+						"sources": "default",
+						"style": 1,
+						"backgroundColor": "",
+						"padding": 10,
+						"addon_name": "bargain",
+						"type": "BARGAIN_LIST",
+						"name": "砍价",
+						"controller": "Bargain",
+						"categoryId": 0,
+						"goodsCount": "6",
+						"goodsId": [],
+						"list": {
+							"imageUrl": "",
+							"title": "砍价专区"
+						},
+						"listMore": {
+							"imageUrl": "",
+							"title": "更多"
+						},
+						"titleTextColor": "#000",
+						"defaultTitleTextColor": "#000",
+						"moreTextColor": "#858585",
+						"defaultMoreTextColor": "#858585"
+					}
+				]
+			}
+		}
+	}
+}

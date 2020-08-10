@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/ns-goods-promotion/ns-goods-promotion"],{3603:function(t,o,e){"use strict";e.r(o);var n=e("c074"),i=e.n(n);for(var r in n)"default"!==r&&function(t){e.d(o,t,(function(){return n[t]}))}(r);o["default"]=i.a},"4e8c":function(t,o,e){"use strict";var n=e("71ef"),i=e.n(n);i.a},"71ef":function(t,o,e){},a090:function(t,o,e){"use strict";e.r(o);var n=e("a7cd"),i=e("3603");for(var r in i)"default"!==r&&function(t){e.d(o,t,(function(){return i[t]}))}(r);e("4e8c");var u,d=e("f0c5"),a=Object(d["a"])(i["default"],n["b"],n["c"],!1,null,null,null,!1,n["a"],u);o["default"]=a.exports},a7cd:function(t,o,e){"use strict";var n,i=function(){var t=this,o=t.$createElement;t._self._c;t._isMounted||(t.e0=function(o){return t.$util.redirectTo("/pages/goods/detail/detail?sku_id="+t.item.sku_id)},t.e1=function(o){return t.$util.redirectTo("/promotionpages/groupbuy/detail/detail?id="+t.item.groupbuy_id)},t.e2=function(o){return t.$util.redirectTo("/promotionpages/pintuan/detail/detail?id="+t.item.id)},t.e3=function(o){return t.$util.redirectTo("/promotionpages/seckill/detail/detail?id="+t.item.id)},t.e4=function(o){return t.$util.redirectTo("/promotionpages/topics/goods_detail/goods_detail?id="+t.item.id)})},r=[];e.d(o,"b",(function(){return i})),e.d(o,"c",(function(){return r})),e.d(o,"a",(function(){return n}))},c074:function(t,o,e){"use strict";Object.defineProperty(o,"__esModule",{value:!0}),o.default=void 0;var n={name:"ns-goods-promotion",props:{promotion:{type:String,default:""}},data:function(){return{goodsPromotion:{type:Array}}},created:function(){},methods:{refresh:function(t){this.goodsPromotion=t}}};o.default=n}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/ns-goods-promotion/ns-goods-promotion-create-component',
+    {
+        'components/ns-goods-promotion/ns-goods-promotion-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("a090"))
+        })
+    },
+    [['components/ns-goods-promotion/ns-goods-promotion-create-component']]
+]);

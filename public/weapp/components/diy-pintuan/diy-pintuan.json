@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "ns-goods-item-col": "/components/ns-goods-item/ns-goods-item-col"
+  }
+}

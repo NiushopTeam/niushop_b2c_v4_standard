@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "ns-empty": "/components/ns-empty/ns-empty",
+    "loading-cover": "/components/loading-cover/loading-cover",
+    "ns-show-toast": "/components/ns-show-toast/ns-show-toast",
+    "ns-goods-item-row": "/components/ns-goods-item/ns-goods-item-row"
+  }
+}

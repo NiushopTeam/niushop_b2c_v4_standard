@@ -1,0 +1,1 @@
+<view class="goods-list" style="{{'background-color:'+(value.backgroundColor)+';'+('padding:'+(value.paddingUpDown*2+'rpx 0')+';')}}" data-theme="{{themeStyle}}"><ns-goods-item-row vue-id="cd556ffc-1" value="{{goodsList}}" showInfor="{{value}}" data-event-opts="{{[['^toDetail',[['toDetail']]]]}}" bind:toDetail="__e" bind:__l="__l"></ns-goods-item-row></view>

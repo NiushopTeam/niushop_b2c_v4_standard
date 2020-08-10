@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "l-time": "/components/l-time/l-time",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "ns-show-toast": "/components/ns-show-toast/ns-show-toast",
+    "loading-cover": "/components/loading-cover/loading-cover"
+  }
+}

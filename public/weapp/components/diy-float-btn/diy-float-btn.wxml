@@ -1,0 +1,1 @@
+<view class="float-btn"><block wx:for="{{$root.l0}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['redirectTo',['$0'],[[['value.list','',index,'link']]]]]]]}}" class="item" catchtap="__e"><image src="{{item.g0}}" mode="widthFix"></image></view></block></view>

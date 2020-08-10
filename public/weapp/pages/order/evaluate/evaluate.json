@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "loading-cover": "/components/loading-cover/loading-cover",
+    "ns-show-toast": "/components/ns-show-toast/ns-show-toast",
+    "sx-rate": "/components/sx-rate/index"
+  }
+}

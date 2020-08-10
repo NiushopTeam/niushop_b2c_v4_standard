@@ -1,0 +1,71 @@
+{extend name="base"/}
+
+{block name="resources"}
+<style type="text/css">
+.no-auth{padding: 100px 0;text-align: center;}
+</style>
+{/block}
+
+{block name="main"}
+    {if condition="$auth_info['code'] == 1"}
+    <div class="index-box">
+        <div class="index-content">
+            <div class="system-function">
+                <table class="layui-table">
+                    <colgroup>
+                        <col width="20%">
+                        <col width="30%">
+                        <col width="20%">
+                        <col width="30%">
+                    </colgroup>
+                    <tbody>
+                    <tr>
+                        <td class="ns-bg-color-light-gray">产品名称</td>
+                        <td>{$auth_info['data']['app_info']['goods_name']}</td>
+                        <td class="ns-bg-color-light-gray">授权状态</td>
+                        <td>已授权</td>
+                    </tr>
+                    <tr>
+                        <td class="ns-bg-color-light-gray">授权码</td>
+                        <td>{$auth_info['data']['auth_code']}</td>
+                        <td class="ns-bg-color-light-gray">授权类型</td>
+                        <td>{$auth_info['data']['auth_type_name']}</td>
+                    </tr>
+                    <tr>
+                        <td class="ns-bg-color-light-gray">当前版本</td>
+                        <td>{$app_info.version}</td>
+                        <td class="ns-bg-color-light-gray">最新版本</td>
+                        <td>{$auth_info['data']['app_info']['version_info']['version_name']}</td>
+                    </tr>
+                    <tr>
+                        <td class="ns-bg-color-light-gray">授权时间</td>
+                        <td>{:date('Y-m-d H:i:s', $auth_info['data']['create_time'])}</td>
+                        <td class="ns-bg-color-light-gray">服务到期时间</td>
+                        <td>
+                            {:date('Y-m-d H:i:s', $auth_info['data']['expire_time'])}
+                            {if condition="$auth_info['data']['expire_time'] > time()"}
+                            <span style="color:red;">可更新</span>
+                            {else/}
+                            {/if}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ns-bg-color-light-gray">授权公司</td>
+                        <td>{$auth_info['data']['company']}</td>
+                        <td class="ns-bg-color-light-gray">授权个人</td>
+                        <td>
+                            {$auth_info['data']['name']}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    {else/}
+    <div class="no-auth">您目前尚未授权，<a href="https://www.niushop.com.cn/authorization.html#Tab4" target="_blank" class="ns-text-color">前往授权</a></div>
+    {/if}   
+{/block}
+
+{block name="script"}
+{/block}
